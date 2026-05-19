@@ -23,14 +23,14 @@
 
 public class problema3 {
 
-    
+
     public static void main(String[] args){
 
     int arr[] = {3,1,2};
     int n = arr.length;
 
-    int inver  = cantidad(arr, 0, n-1);
-    System.out.println("total de inversiones  " + inver);
+    //int inver  = cantidad(arr, 0, n-1);
+    System.out.println("total de inversiones  ");
     }
     
 }
