@@ -10,7 +10,7 @@
  
 
 public class pregunta1 {
-    
+
     public static boolean ordenado(int[] arr, int i, int n){
     //caso base
     if(i == n-1){
@@ -22,6 +22,7 @@ public class pregunta1 {
             return false;
         }
         else{
+            //el i + 1 , es para que aumente como el i++
             return ordenado(arr, i+1, n);
         }
     }
@@ -32,6 +33,8 @@ public class pregunta1 {
     public static void main(String[] args){
         int[] arr1 = {1,2,3,5,8};
         int[] arr2 = {1,4,2,8};
+
+        
         
         //longitud 
         int n1 = arr1.length;
