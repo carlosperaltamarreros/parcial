@@ -6,7 +6,12 @@
 //ejemplo: [1,4,2,8],resultado esperado false
 
 //
-public static boolean ordenado(int[] arr, int i, int n){
+
+ 
+
+public class pregunta1 {
+    
+    public static boolean ordenado(int[] arr, int i, int n){
     //caso base
     if(i == n-1){
         return true;
@@ -24,7 +29,6 @@ public static boolean ordenado(int[] arr, int i, int n){
     
 }
 
-public class pregunta1 {
     public static void main(String[] args){
         int[] arr1 = {1,2,3,5,8};
         int[] arr2 = {1,4,2,8};
