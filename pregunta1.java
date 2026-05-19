@@ -6,15 +6,27 @@
 //ejemplo: [1,4,2,8],resultado esperado false
 
 //
+public static boolean ordenado(int[] arr, int i, int n){
+    //caso basw
+    if(i == n-1){
+        return true;
+    }
 
+    
+}
 
 public class pregunta1 {
     public static void main(String[] args){
         int[] arr1 = {1,2,3,5,8};
         int[] arr2 = {1,4,2,8};
+        
+        //longitud 
+        int n1 = arr1.length;
+        int n2 = arr2.length;
 
-        boolean resul1= ordenado(arr1, 0);
-        boolean resul2= ordenado(arr2, 0);   
+        //llamada de la funcion
+        boolean resul1= ordenado(arr1, 0,n1);
+        boolean resul2= ordenado(arr2, 0,n2);   
 
 
         //print 
@@ -23,6 +35,8 @@ public class pregunta1 {
         System.out.println("arreglo 1: " + resul1);
         System.out.println("arreglo 2: " + resul2);
     }    
+
+
 
 }
 
