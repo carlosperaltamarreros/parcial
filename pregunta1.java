@@ -7,9 +7,18 @@
 
 //
 public static boolean ordenado(int[] arr, int i, int n){
-    //caso basw
+    //caso base
     if(i == n-1){
         return true;
+    }
+    else{
+        //comparacion
+        if(arr[i] > arr[i+1]){
+            return false;
+        }
+        else{
+            return ordenado(arr, i+1, n);
+        }
     }
 
     
